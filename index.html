@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="auth" content="Maikol Valdivia"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>La Cueva Menú</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="theme-color" content="rgb(76,62,46)"/>
+    <link rel="icon" href="media/favicon.png" type="image/png"/>
+  </head>
+  <body>
+    <div class="content-max">
+      <header class="header">
+        <picture>
+          <source class="header__img" media="(max-width: 480px)" srcset="media/header-small.jpg" alt="banner - header"/>
+          <source class="header__img" media="(max-width: 768px)" srcset="media/header-medium.jpg" alt="banner - header"/><img class="header__img" srcset="media/header-long.jpg" alt="banner - header"/>
+        </picture>
+        <picture><img class="header__logo" src="media/logo.svg" alt="Logo"/>
+          <source class="header__logo" media="(max-width: 480px)" srcset="media/logo-small.svg" alt="Logo"/>
+          <source class="header__logo" media="(max-width: 768px)" srcset="media/logo-medium.svg" alt="Logo"/>
+        </picture>
+        <picture class="puntas">
+          <source media="(max-width: 480px)" srcset="media/puntas-small.svg"/><img class="puntas__img" src="media/puntas-long.svg" alt="" sizes="" srcset=""/>
+        </picture>
+      </header>
+      <div class="menu">
+        <div class="menu__body">
+          <nav class="menu__nav">
+            <a class="menu__item" href="combos.html"><img class="menu__btn" src="media/botones/combos.svg" alt=""/><span class="menu__text combos">Combos</span></a>
+            <a class="menu__item" href="nachos.html"><img class="menu__btn" src="media/botones/nachos.svg" alt=""/><span class="menu__text nachos">Nachos</span></a>
+            <a class="menu__item" href="chili.html"><img class="menu__btn" src="media/botones/chili.svg" alt=""/><span class="menu__text chili">Chili</span></a>
+            <a class="menu__item" href="tacos.html"><img class="menu__btn" src="media/botones/tacos.svg" alt=""/><span class="menu__text tacos">Tacos</span></a>
+            <a class="menu__item" href="burritos.html"><img class="menu__btn" src="media/botones/burritos.svg" alt=""/><span class="menu__text burritos">Burritos</span></a>
+            <a class="menu__item" href="quesadillas.html"><img class="menu__btn" src="media/botones/quesadillas.svg" alt=""/><span class="menu__text quesa">Quesadillas</span></a>
+            <a class="menu__item" href="PiquemachoMexicano.html"><img class="menu__btn" src="media/botones/pique.svg" alt=""/><span class="menu__text pique">Pique a lo mero Macho Mexicano</span></a>
+            <a class="menu__item" href="HamburguesaMexicana.html"><img class="menu__btn" src="media/botones/hamburguesa.svg" alt=""/><span class="menu__text hambur">Hamburguesa Mexicana</span></a>
+            <a class="menu__item" href="bebidas.html"><img class="menu__btn" src="media/botones/combos.svg" alt=""/><span class="menu__text bebidas">Bebidas</span></a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div id="preloading">
+      <div class="load"></div>
+    </div>
+    <script src="app.js"></script>
+    <footer class="footer">
+          <picture class="puntas">
+            <source class="puntas__img puntas__img--rotado" media="(max-width: 480px)" srcset="media/puntas-small.svg"/><img class="puntas__img puntas__img--rotado" src="media/puntas-long.svg" alt="footer"/>
+          </picture>
+    </footer>
+  </body>
+</html>
